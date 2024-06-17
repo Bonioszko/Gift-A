@@ -8,9 +8,7 @@ export default function ImageDiv({ name, source }) {
                 <FontAwesomeIcon icon={faHeart} size="2x" color="pink" />
                 <FontAwesomeIcon icon={faHeart} size="2x" color="pink" />
                 <FontAwesomeIcon icon={faHeart} size="2x" color="pink" />
-                <FontAwesomeIcon icon={faHeart} size="2x" color="pink" />
                 <h1 className="text-2xl font-bold">{name}</h1>
-                <FontAwesomeIcon icon={faHeart} size="2x" color="pink" />
                 <FontAwesomeIcon icon={faHeart} size="2x" color="pink" />
                 <FontAwesomeIcon icon={faHeart} size="2x" color="pink" />
                 <FontAwesomeIcon icon={faHeart} size="2x" color="pink" />
