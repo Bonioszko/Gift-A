@@ -44,7 +44,7 @@ function App() {
                     {!clicked ? (
                         <div
                             onClick={() => setClicked(true)}
-                            className="w-screen min-h-screen lg:h-screen bg-red-50 flex justify-center p-8 items-center"
+                            className="w-screen lg:h-screen bg-red-50 flex justify-center p-8 items-center"
                         >
                             <h1 className=" text-2xl lg:text-7xl font-bold transition duration-3000 ease-in bg-gradient-to-r from-indigo-300 to-fuchsia-600 bg-clip-text text-transparent text-center">
                                 {" "}
