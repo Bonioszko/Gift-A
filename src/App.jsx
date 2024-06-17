@@ -29,7 +29,7 @@ function App() {
         "O, patrz, pół roku",
         "O, jak romantycznie w walentynki",
         "Bardzo fajny ogród botaniczny",
-        "Patrz, tutaj nad morze,",
+        "Patrz, tutaj nad morzem",
         "O, tutaj przed wyprawą 12 km...",
         "Bardzo fajne lustro",
         "A tutaj jacy szczęśliwi ze skałami",
@@ -44,7 +44,7 @@ function App() {
                     {!clicked ? (
                         <div
                             onClick={() => setClicked(true)}
-                            className="w-screen h-screen bg-red-50 flex justify-center p-8 items-center"
+                            className="w-screen min-h-screen lg:h-screen bg-red-50 flex justify-center p-8 items-center"
                         >
                             <h1 className=" text-2xl lg:text-7xl font-bold transition duration-3000 ease-in bg-gradient-to-r from-indigo-300 to-fuchsia-600 bg-clip-text text-transparent text-center">
                                 {" "}
