@@ -13,7 +13,7 @@ function App() {
         const interval = setInterval(() => {
             if (first === false) {
                 setCurrImage((currImage) =>
-                    currImage === 15 ? 0 : currImage + 1
+                    currImage === 14 ? 0 : currImage + 1
                 );
             }
         }, 4000);
@@ -29,11 +29,11 @@ function App() {
         "O, patrz, pół roku",
         "O, jak romantycznie w walentynki",
         "Bardzo fajny ogród botaniczny",
-        "Patrz tutaj nad morze",
+        "Patrz, tutaj nad morze,",
         "O, tutaj przed wyprawą 12 km...",
         "Bardzo fajne lustro",
         "A tutaj jacy szczęśliwi ze skałami",
-        "Bardzo poważne miny...",
+
         "A tutaj na najlepszym filmie",
         "Dziękuje",
     ];
@@ -76,7 +76,7 @@ function App() {
                                 ></ImageDiv>
                                 <ImageDiv
                                     name="To my kiedyś"
-                                    source="/Park.jpg"
+                                    source="Park.jpg"
                                 ></ImageDiv>
                             </div>
                         </div>
