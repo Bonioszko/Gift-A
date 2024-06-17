@@ -71,7 +71,7 @@ function App() {
                             <div className="w-full flex flex-col lg:flex-row justify-center gap-20">
                                 {" "}
                                 <ImageDiv
-                                    source="/Hot.jpg"
+                                    source="Hot.jpg"
                                     name="To my dzisiaj"
                                 ></ImageDiv>
                                 <ImageDiv
